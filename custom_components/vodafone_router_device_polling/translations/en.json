@@ -1,0 +1,15 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Vodafone Router Device Polling",
+        "description": "Connect to your Vodafone Station and poll whether your device is online by extracting it from the connected devices API response.",
+        "data": {
+          "host": "Router IP address",
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    }
+  }
+}

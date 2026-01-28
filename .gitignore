@@ -1,0 +1,6 @@
+# Test scripts
+test_vodafone_box.py
+
+# Python
+.venv/
+__pycache__/
