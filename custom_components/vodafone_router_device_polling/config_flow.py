@@ -25,9 +25,9 @@ class VodafoneConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     CONNECTION_CLASS = config_entries.CONN_CLASS_LOCAL_POLL
 
     @staticmethod
-    def async_get_options_flow(config_entry):
+    def async_get_options_flow(_config_entry):
         """Return the options flow."""
-        return VodafoneOptionsFlow(config_entry)
+        return VodafoneOptionsFlow()
 
     async def async_step_user(self, user_input=None):
         _LOGGER.debug("Starting config flow step: user")
@@ -85,10 +85,6 @@ class VodafoneConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
 
 class VodafoneOptionsFlow(config_entries.OptionsFlow):
     """Handle options flow for Vodafone Station."""
-
-    def __init__(self, config_entry):
-        """Initialize options flow."""
-        self.config_entry = config_entry
 
     async def async_step_init(self, user_input=None):
         """Manage the options."""
