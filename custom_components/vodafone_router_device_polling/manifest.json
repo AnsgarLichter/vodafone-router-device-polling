@@ -1,5 +1,5 @@
 {
-  "domain": "ha-vodafone-router",
+  "domain": "ha_vodafone_router",
   "name": "HA Vodafone Router",
   "version": "1.0.0",
   "config_flow": true,
