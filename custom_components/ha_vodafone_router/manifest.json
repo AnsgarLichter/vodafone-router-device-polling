@@ -6,6 +6,6 @@
   "documentation": "https://github.com/AnsgarLichter/ha-vodafone-router",
    "issue_tracker": "https://github.com/AnsgarLichter/ha-vodafone-router/issues",
   "requirements": [],
-  "codeowners": ["https://github.com/AnsgarLichter"],
+  "codeowners": ["@AnsgarLichter"],
   "iot_class": "local_polling"
 }
