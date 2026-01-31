@@ -14,7 +14,7 @@ If you want to use another feature from the router's functionalities, feel free 
 ## Installation (HACS)
 
 1. Install `HACS`: [Download HACS](https://www.hacs.xyz/docs/use/)
-2. [![Open your Home Assistant instance and add the repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository?owner=AnsgarLichter&repository=ha_vodafone_router&category=integration)
+2. [![Open your Home Assistant instance and add the repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository?owner=ansgarlichter&repository=ha_vodafone_router&category=integration)
 3. Press the `Add` button
 4. [![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=ha_vodafone_router)
 5. Configure the connection to your router
